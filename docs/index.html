@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>EduConnect | Landing Page</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__logo">
+		  <a href="#">
+			<img src="./assets/EduConnect_Logo.png" alt="Logo"/>
+		  </a>
+		  </div>
+          <ul class="nav__links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#about">About</a></li>
+          <li class="link"><a href="#discover">Discover</a></li>
+          <li class="link"><a href="#blog">Blog</a></li>
+          <li class="link"><a href="#gallery">Gallery</a></li>
+          <li class="link"><a href="#contact">Contact</a></li>
+            <li class="link search">
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container">
+        <h1>Learn without limits</h1>
+        <h4>Bridging Gaps, Empowering Minds: A Collaborative Learning Platform for All Ages.</h4>
+        <button class="btn" onclick="redirectToJoin()">
+          Join for Free <i class="ri-arrow-right-line"></i>
+        </button>
+		<script>
+			function redirectToJoin() {
+			window.location.href = "https://github.com/mohamedajjaji/EduConnect";
+			}
+		</script>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__content">
+          <h2 class="section__header">ABOUT US</h2>
+          <p class="section__subheader">
+            Welcome to EduConnect, where learning knows no bounds! Our mission is to bridge gaps and empower minds through a collaborative learning platform designed for all ages. <br>
+            At EduConnect, we believe that education is the key to unlocking one's full potential, and we are dedicated to providing a space where individuals can embark on a limitless learning journey.
+          </p>
+          <br>
+        </div>
+        <div class="about__image">
+          <img src="./assets/About.jpg" alt="about" />
+        </div>
+      </div>
+    </section>
+
+    <section class="discover" id="discover">
+      <div class="section__container discover__container">
+        <h2 class="section__header">Discover the most engaging topics</h2>
+        <p class="section__subheader">
+          Dive into a World of Fascinating Learning Journeys.
+        </p>
+        <div class="discover__grid">
+          <div class="discover__card">
+            <div class="discover__image">
+              <img src="./assets/Tech.jpg" alt="discover" />
+            </div>
+            <div class="discover__card__content">
+              <h4>Tech</h4>
+              <p>
+                From the intricacies of coding languages to the revolutionary advancements in artificial intelligence, our technology category is a curated space where enthusiasts, professionals, and tech aficionados converge.
+              </p>
+              <button class="discover__btn">
+                Discover More <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </div>
+          <div class="discover__card">
+            <div class="discover__image">
+              <img src="./assets/Education.jpg" alt="discover" />
+            </div>
+            <div class="discover__card__content">
+              <h4>Education</h4>
+              <p>
+                Within the expansive realm of education, our platform at EduConnect is committed to curating a diverse array of content that spans various disciplines.
+              </p>
+              <button class="discover__btn">
+                Discover More <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </div>
+          <div class="discover__card">
+            <div class="discover__image">
+              <img src="./assets/Literature.jpg" alt="discover" />
+            </div>
+            <div class="discover__card__content">
+              <h4>Literature</h4>
+              <p>
+                Uncover the beauty of prose, poetry, and literary analysis as we navigate the vast landscapes created by masterful authors.
+              </p>
+              <button class="discover__btn">
+                Discover More <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blogs" id="blog">
+      <div class="blogs__container">
+        <h2 class="section__header">Top blogs</h2>
+        <p class="section__subheader">Hot Picks from EduConnect</p>
+        <div class="blogs__grid">
+          <div class="blogs__card">
+            <img src="./assets/Learning-Unleashed.jpg" style="object-fit: cover;" height="500px" alt="blog" />
+            <div class="blogs__content">
+              Learning Unleashed is a dynamic blog that showcases the hottest trends and breakthroughs in education.
+            </div>
+          </div>
+          <div class="blogs__card">
+            <img src="./assets/Future-Thinkers-Forum.jpg" height="500px" alt="blog" style="object-fit: cover;" />
+            <div class="blogs__content">
+              Explore the intersection of technology, education, and future trends with the Future Thinkers Forum.
+            </div>
+          </div>
+          <div class="blogs__card">
+            <img src="./assets/EduTech-Insights.jpeg" height="500px" alt="blog" style="object-fit: cover;" />
+            <div class="blogs__content">
+              Hub for the latest trends and innovations in educational technology, shaping the future of learning.
+            </div>
+          </div>
+          <div class="blogs__card">
+            <img src="./assets/Coding-Chronicles.png" height="500px" alt="blog" style="object-fit: cover;" />
+            <div class="blogs__content">
+              Dive into the world of coding and programming with Coding Chronicles, providing resources for aspiring developers and seasoned coders alike.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	<section class="hero">
+		<div class="section__container hero__container">
+			<p>EduConnect</p>
+		</div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="gallery__container">
+        <h2 class="section__header">Gallery photos</h2>
+        <p class="section__subheader">
+          A Pictorial of EduConnect.
+        </p>
+        <div class="gallery__grid">
+          <div class="gallery__card">
+            <img src="./assets/Screenshot.png" alt="gallery" />
+            <div class="gallery__content">
+              <p></p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="./assets/Screenshot.png" alt="gallery" />
+            <div class="gallery__content">
+              <p></p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="./assets/Screenshot.png" alt="gallery" />
+            <div class="gallery__content">
+              <p></p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="./assets/Screenshot.png" alt="gallery" />
+            <div class="gallery__content">
+              <p></p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="./assets/Screenshot.png" alt="gallery" />
+            <div class="gallery__content">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__content">
+          <h2 class="section__header">AUTHORS</h2>
+          <p class="section__subheader">
+            <h3>Mohamed AJJAJI</h3>
+            ALX student in full-stack engineering, brings passion for coding and problem-solving to the forefront.
+			A results-driven professional, he possesses strong collaboration, communication, and problem-solving skills.
+			Detail-oriented, Mohamed strives for process improvement and optimized outcomes.
+			Dedicated to continuous learning, he is excited to tackle new challenges head-on.
+            <div class="social">
+              <h4>Mohamed's Social Handle</h4>
+            <a href="https://github.com/mohamedajjaji">GitHub Link</a>
+            <a href="https://www.linkedin.com/in/mohamedajjaji/">LinkedIn Link</a>
+            <a href="https://twitter.com/mohamedajjaji">Twitter Link</a></div>
+            <br>
+          </p>
+          <div class="about__flex">
+            <div class="about__card">
+              <h4>Mohamed</h4>
+              <p>Full-Stack | EduConnect Project</p>
+            </div>
+          </div>
+        </div>
+		<div class="contact__col">
+			  <h2 class="section__header">Get in Touch</h2>
+			  <p>Have a question or feedback? Reach out to us using the contact form below ..</p>
+			  <br>
+			<div class="contact__card">
+			<p class="section__subheader">
+				<span><i class="ri-mail-line"></i><p> support@educonnect.com</p></span>
+			</p>
+			</div>
+		</div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="section__container footer__container">
+        <div class="nav__logo">
+		  <a href="#"><img src="./assets/EduConnect_Logo.png" alt="Logo"/></a>
+		</div>
+        <div class="footer__socials">
+          <span>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </span>
+        </div>
+        <p>
+		"Education is the most powerful weapon which you can use to change the world." - Nelson Mandela
+		<br>
+		<br>
+        EduConnect - Learn Beyond Limits! 🌐
+		</p>
+		<ul class="footer__nav">
+          <li class="footer__link"><a href="#home">Home</a></li>
+          <li class="footer__link"><a href="#about">About</a></li>
+          <li class="footer__link"><a href="#discover">Discover</a></li>
+          <li class="footer__link"><a href="#blog">Blog</a></li>
+          <li class="footer__link"><a href="#gallery">Gallery</a></li>
+          <li class="footer__link"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 EduConnect. All rights reserved.
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
